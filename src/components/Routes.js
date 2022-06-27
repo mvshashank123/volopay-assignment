@@ -4,16 +4,16 @@ import Cards from "../pages/Cards";
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/my-cards" exact>
+      <Route path="/volopay-assignment/my-cards" exact>
         <Cards type="mycards" />
       </Route>
-      <Route path="/blocked-cards" exact>
+      <Route path="/volopay-assignment/blocked-cards" exact>
         <Cards type="blockedcards" />
       </Route>
-      <Route path="/all-cards" exact>
+      <Route path="/volopay-assignment/all-cards" exact>
         <Cards type="allcards" />
       </Route>
-      <Route path="/" exact>
+      <Route path="/volopay-assignment/" exact>
         <Cards type="allcards" />
       </Route>
     </Switch>
