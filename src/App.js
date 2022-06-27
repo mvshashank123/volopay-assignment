@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { createBrowserHistory } from "history";
+import { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import AppHeader from "./components/AppHeader";
+import Routes from "./components/Routes";
+import Tabs from "./components/Tabs";
 
 function App() {
+  const history = createBrowserHistory();
+  const [cardState, setCardState] = useState("All");
+
   return (
+    <BrowserRouter history={history}>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppHeader />
+      <Tabs cardState={cardState} setCardState={setCardState}/>
+      <Routes />
     </div>
+    </BrowserRouter>
   );
 }
 
