@@ -1,9 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
 import "../App.css";
-import Routes from "./Routes";
+import allPaths from "../helpers/allPaths";
 
 const Tabs = ({ cardState, setCardState }) => {
   const history = useHistory();
@@ -14,15 +13,15 @@ const Tabs = ({ cardState, setCardState }) => {
     
     switch (state) {
       case "All":
-        history.push("/all-cards");
+        history.push(allPaths.ALL_CARDS_ROUTE);
         break;
 
       case "Your":
-        history.push("/my-cards");
+        history.push(allPaths.MY_CARDS_ROUTE);
         break;
 
       case "Blocked":
-        history.push("/blocked-cards");
+        history.push(allPaths.BLOCKED_CARDS_ROUTE);
         break;
 
       default:
