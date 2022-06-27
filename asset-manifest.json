@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/volopay-assignment/static/css/main.5d6c2d23.css",
-    "main.js": "/volopay-assignment/static/js/main.3453ec60.js",
+    "main.js": "/volopay-assignment/static/js/main.95e3bfac.js",
     "static/js/787.3485b12d.chunk.js": "/volopay-assignment/static/js/787.3485b12d.chunk.js",
     "static/media/refresh.svg": "/volopay-assignment/static/media/refresh.45da0a9a64d4c2402dfbd69e1ff48b1b.svg",
     "static/media/flame.svg": "/volopay-assignment/static/media/flame.585dc145c47143ccd3cb9067d88a0e07.svg",
@@ -9,11 +9,11 @@
     "static/media/filter.svg": "/volopay-assignment/static/media/filter.2784e2064a65a8fbf512f1ea11d0731f.svg",
     "static/media/search.svg": "/volopay-assignment/static/media/search.f7a26ab2c1e6ae877b07de2d73c3ff06.svg",
     "main.5d6c2d23.css.map": "/volopay-assignment/static/css/main.5d6c2d23.css.map",
-    "main.3453ec60.js.map": "/volopay-assignment/static/js/main.3453ec60.js.map",
+    "main.95e3bfac.js.map": "/volopay-assignment/static/js/main.95e3bfac.js.map",
     "787.3485b12d.chunk.js.map": "/volopay-assignment/static/js/787.3485b12d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d6c2d23.css",
-    "static/js/main.3453ec60.js"
+    "static/js/main.95e3bfac.js"
   ]
 }
