@@ -131,7 +131,7 @@ const Cards = () => {
 
     if (searchText) {
       filteredCards = data.filter((item) =>
-        item.name.toLowerCase().includes(searchText)
+        item.name.toLowerCase().includes(searchText.toLowerCase())
       );
     } else {
       return setCardsInfo(data);
